@@ -3,7 +3,7 @@ import { Text, StyleSheet, View, SafeAreaView,
           TouchableOpacity } from 'react-native'
 // import Primeiro from './src/components/Primeiro'
 // import CompPadrao, { Component1, Component2 } from './src/components/Multi'
-import BtnComprar from './src/components/BtnComprar'
+import Botao from './src/components/Botao'
 import TituloPrincipal from './src/components/TituloPrincipal'
 import Header from './src/components/Header'
 
@@ -11,16 +11,17 @@ export default () => {
   return (
     <SafeAreaView>
       <Header/>
-      <TituloPrincipal />
-      <BtnComprar/>
+      <TituloPrincipal title="Home" subtitle="seja bem vindo"/>
+      <TituloPrincipal title="Produtos"/>
+      <TituloPrincipal title="Carrinho"/>
+      <Botao title="Add to cart" back="#066922"/>
+      <Botao title="Comprar" back="#066922"/>
+      <Botao title="Finalizar compra" back="#066922"/>
+      <Botao title="Cadastrar" back="grey"/>
+      <Botao title="Cadastrar" />
       <View style={style.App}>
         <Text style={[style.txtG, style.txtBranco]}>Iniciando com estilos</Text>
     </View>
-      <BtnComprar/>
-      <BtnComprar/>
-      <TituloPrincipal />
-      <TituloPrincipal />
-      <Header/>
     </SafeAreaView>
     
     

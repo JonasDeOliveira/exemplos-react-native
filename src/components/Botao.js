@@ -1,17 +1,18 @@
 import React from 'react'
 import { TouchableOpacity, Text, StyleSheet } from 'react-native'
 
-export default () => {
+export default props => {
     return (
         <TouchableOpacity>
-            <Text style={styles.btnComprar}>Comprar</Text>
+            <Text style={[styles.botao, {backgroundColor: props.back || '#000'}]}>
+                {props.title || 'Comprar'}
+            </Text>
         </TouchableOpacity>
     )
 }
 
 const styles = StyleSheet.create({
-    btnComprar: {
-        backgroundColor: '#29e45e',
+    botao: {
         fontSize: 20,
         color: '#fff',
         textAlign: 'center',
