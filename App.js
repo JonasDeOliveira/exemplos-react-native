@@ -8,13 +8,17 @@ import { Text, StyleSheet, View, SafeAreaView,
 import Header from './src/components/Header'
 import ButtonExp from './src/components/ButtonExp'
 import Login from './src/screens/Login'
+import Contator from './src/components/Contator'
 // import MinMax from './src/components/MinMax'
 
 export default () => {
   return (
     <SafeAreaView>
-      <Login/>
-      {/* <Header/>
+      <Header/>
+      <Contator inicial={0}/>
+
+      {/* <Login/> */}
+      {/* 
       <ButtonExp /> */}
       {/*<MinMax min="2" max="10"/> strings*/}
       {/*<MinMax min={5} max={15}/> valor numérico*/}
