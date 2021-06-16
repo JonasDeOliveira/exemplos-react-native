@@ -3,15 +3,22 @@ import { Text, StyleSheet, View, SafeAreaView,
           TouchableOpacity } from 'react-native'
 // import Primeiro from './src/components/Primeiro'
 // import CompPadrao, { Component1, Component2 } from './src/components/Multi'
-import Botao from './src/components/Botao'
-import TituloPrincipal from './src/components/TituloPrincipal'
+// import Botao from './src/components/Botao'
+// import TituloPrincipal from './src/components/TituloPrincipal'
 import Header from './src/components/Header'
+import MinMax from './src/components/MinMax'
 
 export default () => {
   return (
     <SafeAreaView>
       <Header/>
-      <TituloPrincipal title="Home" subtitle="seja bem vindo"/>
+      <MinMax min="2" max="10"/> {/*strings*/}
+      <MinMax min={5} max={15}/> {/*valor numérico*/}
+      <MinMax min={300} max={450}/>
+
+
+
+      {/* <TituloPrincipal title="Home" subtitle="seja bem vindo"/>
       <TituloPrincipal title="Produtos"/>
       <TituloPrincipal title="Carrinho"/>
       <Botao title="Add to cart" back="#066922"/>
@@ -21,7 +28,7 @@ export default () => {
       <Botao title="Cadastrar" />
       <View style={style.App}>
         <Text style={[style.txtG, style.txtBranco]}>Iniciando com estilos</Text>
-    </View>
+    </View> */}
     </SafeAreaView>
     
     
