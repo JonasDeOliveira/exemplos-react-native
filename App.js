@@ -6,18 +6,19 @@ import { Text, StyleSheet, View, SafeAreaView,
 // import Botao from './src/components/Botao'
 // import TituloPrincipal from './src/components/TituloPrincipal'
 import Header from './src/components/Header'
-import MinMax from './src/components/MinMax'
+import ButtonExp from './src/components/ButtonExp'
+import Login from './src/screens/Login'
+// import MinMax from './src/components/MinMax'
 
 export default () => {
   return (
     <SafeAreaView>
-      <Header/>
-      <MinMax min="2" max="10"/> {/*strings*/}
-      <MinMax min={5} max={15}/> {/*valor numérico*/}
-      <MinMax min={300} max={450}/>
-
-
-
+      <Login/>
+      {/* <Header/>
+      <ButtonExp /> */}
+      {/*<MinMax min="2" max="10"/> strings*/}
+      {/*<MinMax min={5} max={15}/> valor numérico*/}
+      {/* <MinMax min={300} max={450}/> */}
       {/* <TituloPrincipal title="Home" subtitle="seja bem vindo"/>
       <TituloPrincipal title="Produtos"/>
       <TituloPrincipal title="Carrinho"/>
