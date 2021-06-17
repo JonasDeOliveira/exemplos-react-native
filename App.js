@@ -13,13 +13,15 @@ import RevisaoProps from './src/components/revisaoProps/RevisaoProps'
 // import Contator from './src/components/Contator'
 // import Pai from './src/components/direta/Pai'
 // import GridProdutos from './src/components/GridProdutos'
+import Pai from './src/components/indireta/Pai'
 
 
 export default () => {
   return (
     <SafeAreaView>
       <Header/>
-      <RevisaoProps/>
+      <Pai/>
+      {/* <RevisaoProps/> */}
       {/* <GridProdutos/> */}
       {/* <Pai/> */}
       {/* <Contator inicial={0}/> */}
