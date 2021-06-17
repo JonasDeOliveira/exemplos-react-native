@@ -2,7 +2,7 @@ import React from 'react'
 import { Text, StyleSheet, View, SafeAreaView,
           TouchableOpacity } from 'react-native'
 import Header from './src/components/Header'
-import RevisaoProps from './src/components/revisaoProps/RevisaoProps'
+// import RevisaoProps from './src/components/revisaoProps/RevisaoProps'
 // import Primeiro from './src/components/Primeiro'
 // import CompPadrao, { Component1, Component2 } from './src/components/Multi'
 // import Botao from './src/components/Botao'
@@ -13,14 +13,17 @@ import RevisaoProps from './src/components/revisaoProps/RevisaoProps'
 // import Contator from './src/components/Contator'
 // import Pai from './src/components/direta/Pai'
 // import GridProdutos from './src/components/GridProdutos'
-import Pai from './src/components/indireta/Pai'
+// import Pai from './src/components/indireta/Pai'
+import Diferenciar from './src/components/Diferenciar'
 
 
 export default () => {
   return (
     <SafeAreaView>
       <Header/>
-      <Pai/>
+      <Diferenciar/>
+
+      {/* <Pai/> */}
       {/* <RevisaoProps/> */}
       {/* <GridProdutos/> */}
       {/* <Pai/> */}
