@@ -1,26 +1,27 @@
 import React from 'react'
-import { Text, StyleSheet } from 'react-native'
+import { Text, StyleSheet, View } from 'react-native'
 
 export default props => {
     return (
-        <>
+        <View style={styles.container}>
             <Text style={styles.tituloPrincipal}>{props.title}</Text>
             <Text style={styles.subtitle}>{props.subtitle}</Text>
-        </>
+        </View>
         
     )
 }
 
 const styles = StyleSheet.create({
+    container: {
+        textAlign: "center"
+    },
     tituloPrincipal: {
         fontWeight: 'bold',
-        fontSize: 40,
-        color: 'blue',
+        fontSize: 25,
         textAlign: 'center'
     },
     subtitle: {
-        fontSize: 20,
-        color: '#000',
+        fontSize: 14,
         textAlign: 'center'
     }
 })

@@ -1,25 +1,29 @@
 import React from 'react'
 import { Text, StyleSheet, View, SafeAreaView,
           TouchableOpacity } from 'react-native'
+import Header from './src/components/Header'
 // import Primeiro from './src/components/Primeiro'
 // import CompPadrao, { Component1, Component2 } from './src/components/Multi'
 // import Botao from './src/components/Botao'
 // import TituloPrincipal from './src/components/TituloPrincipal'
-import Header from './src/components/Header'
-import ButtonExp from './src/components/ButtonExp'
-import Login from './src/screens/Login'
-import Contator from './src/components/Contator'
+// import ButtonExp from './src/components/ButtonExp'
+// import Login from './src/screens/Login'
 // import MinMax from './src/components/MinMax'
+// import Contator from './src/components/Contator'
+// import Pai from './src/components/direta/Pai'
+import GridProdutos from './src/components/GridProdutos'
+
 
 export default () => {
   return (
     <SafeAreaView>
       <Header/>
-      <Contator inicial={0}/>
+      <GridProdutos/>
 
+      {/* <Pai/> */}
+      {/* <Contator inicial={0}/> */}
       {/* <Login/> */}
-      {/* 
-      <ButtonExp /> */}
+      {/*<ButtonExp /> */}
       {/*<MinMax min="2" max="10"/> strings*/}
       {/*<MinMax min={5} max={15}/> valor numérico*/}
       {/* <MinMax min={300} max={450}/> */}
