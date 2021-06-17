@@ -2,6 +2,7 @@ import React from 'react'
 import { Text, StyleSheet, View, SafeAreaView,
           TouchableOpacity } from 'react-native'
 import Header from './src/components/Header'
+import RevisaoProps from './src/components/revisaoProps/RevisaoProps'
 // import Primeiro from './src/components/Primeiro'
 // import CompPadrao, { Component1, Component2 } from './src/components/Multi'
 // import Botao from './src/components/Botao'
@@ -11,15 +12,15 @@ import Header from './src/components/Header'
 // import MinMax from './src/components/MinMax'
 // import Contator from './src/components/Contator'
 // import Pai from './src/components/direta/Pai'
-import GridProdutos from './src/components/GridProdutos'
+// import GridProdutos from './src/components/GridProdutos'
 
 
 export default () => {
   return (
     <SafeAreaView>
       <Header/>
-      <GridProdutos/>
-
+      <RevisaoProps/>
+      {/* <GridProdutos/> */}
       {/* <Pai/> */}
       {/* <Contator inicial={0}/> */}
       {/* <Login/> */}
