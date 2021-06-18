@@ -1,0 +1,28 @@
+<App/> chama <Pai/>
+em Pai.js
+    criou 2 variaveis
+        text = ''
+        num = 0
+    declarou uma função
+        exibirValor(numeroParam, textoParam)
+
+    retorna jsx
+        dentro de <Text> imprime as 2 variáveis declaradas acima
+        Chama <Filho/>
+            dentro de filho passamos uma props chamada funcao
+            O valor dessa props é a função exibirValor(numeroParam, textoParam)
+
+            funcao = function (numeroParam, textoParam) {
+                setNum(numeroParam)
+                setTexto(textoParam)
+            }    
+
+            funcao()
+em Filho.js
+    temos <Button/> que no onPress temos uma função chamada quandoTocar
+    quando o usuário tocar no Botão, a função quandoTocar é executada e dentro dela temos a função exibirValor sendo executada. Isso é possivel, pois passamos a função exibirValor dentro de props.funcao
+
+A funcao exibirValor está em Pai.js
+
+Em Pai.js a função exibirValor é executada com os parametros passado no componete Filho
+com parametros passados no componete Filho a função exibirValor atuliza o estado das variáveis, consequentimente o valor é mudado na tela do usuário JSX

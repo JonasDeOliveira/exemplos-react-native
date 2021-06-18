@@ -13,17 +13,35 @@ import Header from './src/components/Header'
 // import Contator from './src/components/Contator'
 // import Pai from './src/components/direta/Pai'
 // import GridProdutos from './src/components/GridProdutos'
-// import Pai from './src/components/indireta/Pai'
-import Diferenciar from './src/components/Diferenciar'
-
-
+import Pai from './src/components/indireta/Pai'
+// import Diferenciar from './src/components/Diferenciar'
+// import Familia from './src/components/propsChildren/Familia'
+// import Membro from './src/components/propsChildren/Membro'
+// import ParImpar from './src/components/condicional/ParImpar'
+import UsuarioLogado from './src/components/condicional/UsuarioLogado'
 export default () => {
   return (
     <SafeAreaView>
       <Header/>
-      <Diferenciar/>
+      {/* <UsuarioLogado usuario={{nome:'Jonas', email:"Jonas@rd.com"}}/>
+      <UsuarioLogado usuario={null}/>
+      <UsuarioLogado usuario={{nome:'Carlos'}}/> */}
 
-      {/* <Pai/> */}
+      {/* <ParImpar num={2}/>
+      <ParImpar num={3}/>
+      <ParImpar num={10}/> */}
+      {/* <Familia>
+        <Membro nome="Jonas" sobrenome="Carvalho"/>
+        <Membro nome="Ronaldo" sobrenome="Carvalho"/>
+        <Membro nome="Diego" sobrenome="Carvalho"/>
+      </Familia>
+      <Familia>
+        <Membro nome="ANa" sobrenome="SIlva"/>
+        <Membro nome="FElipe" sobrenome="SIlva"/>
+        <Membro nome="Marcos" sobrenome="SIlva"/>
+      </Familia> */}
+      {/* <Diferenciar/> */}
+      <Pai/>
       {/* <RevisaoProps/> */}
       {/* <GridProdutos/> */}
       {/* <Pai/> */}
