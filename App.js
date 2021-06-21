@@ -4,6 +4,7 @@ import { Text, StyleSheet, View, SafeAreaView,
 import Header from './src/components/Header'
 import LoginNew from './src/screens/LoginNew'
 import Cadastro from './src/screens/Cadastro'
+import Checkout from './src/screens/Checkout'
 // import RevisaoProps from './src/components/revisaoProps/RevisaoProps'
 // import Primeiro from './src/components/Primeiro'
 // import CompPadrao, { Component1, Component2 } from './src/components/Multi'
@@ -28,7 +29,8 @@ export default () => {
   return (
     <SafeAreaView>
       <Header/>
-      <Cadastro/>
+      <Checkout/>
+      {/* <Cadastro/> */}
       {/* <LoginNew/> */}
       {/* <DigiteSeuNome/> */}
       {/* <ListaProdutos/> */}
