@@ -19,10 +19,14 @@ import Pai from './src/components/indireta/Pai'
 // import Membro from './src/components/propsChildren/Membro'
 // import ParImpar from './src/components/condicional/ParImpar'
 import UsuarioLogado from './src/components/condicional/UsuarioLogado'
+import ListaProdutos from './src/components/Produtos/ListaProdutos'
+import ListaProdutos2 from './src/components/Produtos/ListaProdutos2'
 export default () => {
   return (
     <SafeAreaView>
       <Header/>
+      {/* <ListaProdutos/> */}
+      <ListaProdutos2/>
       {/* <UsuarioLogado usuario={{nome:'Jonas', email:"Jonas@rd.com"}}/>
       <UsuarioLogado usuario={null}/>
       <UsuarioLogado usuario={{nome:'Carlos'}}/> */}
