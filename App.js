@@ -21,12 +21,14 @@ import Pai from './src/components/indireta/Pai'
 import UsuarioLogado from './src/components/condicional/UsuarioLogado'
 import ListaProdutos from './src/components/Produtos/ListaProdutos'
 import ListaProdutos2 from './src/components/Produtos/ListaProdutos2'
+import DigiteSeuNome from './src/components/DigiteSeuNome'
 export default () => {
   return (
     <SafeAreaView>
       <Header/>
+      <DigiteSeuNome/>
       {/* <ListaProdutos/> */}
-      <ListaProdutos2/>
+      {/* <ListaProdutos2/> */}
       {/* <UsuarioLogado usuario={{nome:'Jonas', email:"Jonas@rd.com"}}/>
       <UsuarioLogado usuario={null}/>
       <UsuarioLogado usuario={{nome:'Carlos'}}/> */}
@@ -45,7 +47,7 @@ export default () => {
         <Membro nome="Marcos" sobrenome="SIlva"/>
       </Familia> */}
       {/* <Diferenciar/> */}
-      <Pai/>
+      {/* <Pai/> */}
       {/* <RevisaoProps/> */}
       {/* <GridProdutos/> */}
       {/* <Pai/> */}
