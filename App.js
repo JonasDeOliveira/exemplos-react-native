@@ -2,6 +2,8 @@ import React from 'react'
 import { Text, StyleSheet, View, SafeAreaView,
           TouchableOpacity } from 'react-native'
 import Header from './src/components/Header'
+import LoginNew from './src/screens/LoginNew'
+import Cadastro from './src/screens/Cadastro'
 // import RevisaoProps from './src/components/revisaoProps/RevisaoProps'
 // import Primeiro from './src/components/Primeiro'
 // import CompPadrao, { Component1, Component2 } from './src/components/Multi'
@@ -13,20 +15,22 @@ import Header from './src/components/Header'
 // import Contator from './src/components/Contator'
 // import Pai from './src/components/direta/Pai'
 // import GridProdutos from './src/components/GridProdutos'
-import Pai from './src/components/indireta/Pai'
+// import Pai from './src/components/indireta/Pai'
 // import Diferenciar from './src/components/Diferenciar'
 // import Familia from './src/components/propsChildren/Familia'
 // import Membro from './src/components/propsChildren/Membro'
 // import ParImpar from './src/components/condicional/ParImpar'
-import UsuarioLogado from './src/components/condicional/UsuarioLogado'
-import ListaProdutos from './src/components/Produtos/ListaProdutos'
-import ListaProdutos2 from './src/components/Produtos/ListaProdutos2'
-import DigiteSeuNome from './src/components/DigiteSeuNome'
+// import UsuarioLogado from './src/components/condicional/UsuarioLogado'
+// import ListaProdutos from './src/components/Produtos/ListaProdutos'
+// import ListaProdutos2 from './src/components/Produtos/ListaProdutos2'
+// import DigiteSeuNome from './src/components/DigiteSeuNome'
 export default () => {
   return (
     <SafeAreaView>
       <Header/>
-      <DigiteSeuNome/>
+      <Cadastro/>
+      {/* <LoginNew/> */}
+      {/* <DigiteSeuNome/> */}
       {/* <ListaProdutos/> */}
       {/* <ListaProdutos2/> */}
       {/* <UsuarioLogado usuario={{nome:'Jonas', email:"Jonas@rd.com"}}/>
