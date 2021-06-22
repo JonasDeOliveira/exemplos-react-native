@@ -20,12 +20,12 @@ export default () => {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
         flexDirection: 'row',
-        padding: 20,
+        height: 75,
+        padding: 25,
         justifyContent: 'space-between',
         borderBottomWidth: 5,
-        borderBottomStyle: 'solid',
+        borderStyle: 'solid',
         borderBottomColor: '#000'
     }
 })

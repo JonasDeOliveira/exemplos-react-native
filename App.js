@@ -2,9 +2,10 @@ import React from 'react'
 import { Text, StyleSheet, View, SafeAreaView,
           TouchableOpacity } from 'react-native'
 import Header from './src/components/Header'
-import LoginNew from './src/screens/LoginNew'
-import Cadastro from './src/screens/Cadastro'
-import Checkout from './src/screens/Checkout'
+// import LoginNew from './src/screens/LoginNew'
+// import Cadastro from './src/screens/Cadastro'
+// import Checkout from './src/screens/Checkout'
+import Primeiro from './src/components/classes/Primeiro'
 // import RevisaoProps from './src/components/revisaoProps/RevisaoProps'
 // import Primeiro from './src/components/Primeiro'
 // import CompPadrao, { Component1, Component2 } from './src/components/Multi'
@@ -29,7 +30,8 @@ export default () => {
   return (
     <SafeAreaView>
       <Header/>
-      <Checkout/>
+      <Primeiro texto="passando props"/>
+      {/* <Checkout/> */}
       {/* <Cadastro/> */}
       {/* <LoginNew/> */}
       {/* <DigiteSeuNome/> */}
